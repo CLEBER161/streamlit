@@ -2,9 +2,9 @@ import pandas as pd
 import os
 from numpy.random import randn
 import streamlit as st
-#import matplotlib.pyplot as plt
-#import openpyxl
-#from streamlit_card import card
+import matplotlib.pyplot as plt
+import openpyxl
+from streamlit_card import card
 import plotly.graph_objects as go
 import plotly.express as px
 from streamlit_plotly_events import plotly_events
