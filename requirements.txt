@@ -1,0 +1,8 @@
+pandas
+numpy
+streamlit
+matplotlib
+openpyxl
+streamlit_card
+plotly
+streamlit_plotly_events
