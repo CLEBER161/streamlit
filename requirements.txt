@@ -8,4 +8,4 @@ plotly
 streamlit_plotly_events
 plotly.graph_objects
 plotly.express
-matplotlib.pyplot 
+matplotlib.pyplot
