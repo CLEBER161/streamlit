@@ -3,7 +3,7 @@ import os
 from numpy.random import randn
 import streamlit as st
 #import matplotlib.pyplot as plt
-import openpyxl
+#import openpyxl
 from streamlit_card import card
 import plotly.graph_objects as go
 import plotly.express as px
