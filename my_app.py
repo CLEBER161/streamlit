@@ -24,7 +24,7 @@ import io
 def load_data():
     caminho_zip = "https://github.com/CLEBER161/streamlit/blob/main/BASE23.xlsx"
 # Diretório onde deseja extrair os arquivos
-    diretorio_destino = "https://github.com/CLEBER161/streamlit/blob/main/BASE23.xlsx"
+    diretorio_destino = "https://github.com/CLEBER161/streamlit/blob/main"
 
 # Extrair os arquivos
     with zipfile.ZipFile(caminho_zip, 'r') as zip_ref:
