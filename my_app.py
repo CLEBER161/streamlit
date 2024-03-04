@@ -12,11 +12,24 @@ st.set_page_config(
     layout="wide",
     page_title="Resultados da Auditoria de Campo"
 )
+from zipfile import ZipFile
+import io
 
 @st.cache
 #@st.cache_data
+
+
+
 def load_data():
+    caminho_zip = "https://github.com/CLEBER161/streamlit/blob/main/BASE23.xlsx"
+# Diretório onde deseja extrair os arquivos
+    diretorio_destino = "https://github.com/CLEBER161/streamlit/blob/main/BASE23.xlsx"
+
+# Extrair os arquivos
+    with zipfile.ZipFile(caminho_zip, 'r') as zip_ref:
+        zip_ref.extractall(diretorio_destino)
     df_data2 = pd.read_excel('https://github.com/CLEBER161/streamlit/blob/main/BASE23.xlsx', engine='openpyxl')
+    
     return df_data2
 
 
