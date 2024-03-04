@@ -13,8 +13,8 @@ st.set_page_config(
     page_title="Resultados da Auditoria de Campo"
 )
 
-
-@st.cache_data
+@st.cache
+#@st.cache_data
 def load_data():
     df_data2 = pd.read_excel('C:/Users/clebe/OneDrive/Área de Trabalho/Resultados Streamlit/BASE23.xlsx')
     return df_data2
