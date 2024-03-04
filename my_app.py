@@ -12,6 +12,7 @@ st.set_page_config(
     layout="wide",
     page_title="Resultados da Auditoria de Campo"
 )
+import zipfile
 from zipfile import ZipFile
 import io
 
