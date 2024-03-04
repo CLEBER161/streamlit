@@ -16,7 +16,7 @@ st.set_page_config(
 @st.cache
 #@st.cache_data
 def load_data():
-    df_data2 = pd.read_excel('https://raw.github.com/CLEBER161/streamlit/blob/main/BASE23.xlsx')
+    df_data2 = pd.read_excel('https://github.com/CLEBER161/streamlit/blob/main/BASE23.xlsx')
     return df_data2
 
 
