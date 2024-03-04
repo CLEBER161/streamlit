@@ -22,7 +22,7 @@ import io
 
 
 def load_data():
-    caminho_zip = "https://github.com/CLEBER161/streamlit/blob/main/BASE23.xlsx"
+    caminho_zip = "https://github.com/CLEBER161/streamlit/blob/main"
 # Diretório onde deseja extrair os arquivos
     diretorio_destino = "https://github.com/CLEBER161/streamlit/blob/main"
 
