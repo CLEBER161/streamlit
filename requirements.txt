@@ -4,8 +4,8 @@ streamlit==1.2.0
 matplotlib==3.4.3
 openpyxl==3.0.9
 streamlit_card==0.0.7
-plotly==5.3.1
-streamlit_plotly_events
+plotly==5.19.0
+streamlit_plotly_events==0.0.6
 plotly.graph_objects==5.3.1
 plotly.expres==0.4.1
 matplotlib.pyplot==0.6.0
